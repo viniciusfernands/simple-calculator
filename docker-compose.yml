@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  calculator:
+    container_name: calculator_app
+    build:
+      context: .
+    ports: 
+      - 5173:5173
